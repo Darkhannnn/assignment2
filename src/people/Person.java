@@ -2,7 +2,7 @@ package people;
 
 import helpers.Payable;
 
-public class Person implements Payable {
+public class Person implements Payable, Comparable<Person>{
     public static int nextId = 1;
 
     private int id;
@@ -54,5 +54,10 @@ public class Person implements Payable {
     @Override
     public double getPaymentAmount() {
         return 0.0;
+    }
+
+    @Override
+    public int compareTo(Person other) {
+        return Double.compare(this.getPaymentAmount(), other.getPaymentAmount());
     }
 }

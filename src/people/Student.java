@@ -13,6 +13,13 @@ public class Student extends Person{
     public double getPaymentAmount() {
         return (gpa > 2.67) ? 36660.00 : 0.0;
     }
+    @Override
+    public int compareTo(Person other) {
+        if (other instanceof Student) {
+            return Double.compare(this.getPaymentAmount(), other.getPaymentAmount());
+        }
+        return super.compareTo(other);
+    }
 
     public Student() {
     }
