@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e28ce21-9007-4c11-af0c-c8ea932645c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/Calculations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/people/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/people/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/people/Student.java" afterDir="false" />
+    <list default="true" id="3e28ce21-9007-4c11-af0c-c8ea932645c2" name="Changes" comment="added smth">
+      <change afterPath="$PROJECT_DIR$/src/helpers/Payable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/people/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/people/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/people/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +20,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2a6sC3LZtMgHAQrYkXX6IeJay5T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MyApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -71,10 +67,51 @@
       <option name="presentableId" value="Default" />
       <updated>1703650231540</updated>
       <workItem from="1703650232573" duration="2714000" />
+      <workItem from="1705839439780" duration="4425000" />
     </task>
+    <task id="LOCAL-00001" summary="added smth">
+      <option name="closed" value="true" />
+      <created>1705839716037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705839716037</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added smth">
+      <option name="closed" value="true" />
+      <created>1705841034692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705841034692</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added smth">
+      <option name="closed" value="true" />
+      <created>1705841085523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705841085523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added smth" />
+    <option name="LAST_COMMIT_MESSAGE" value="added smth" />
   </component>
 </project>

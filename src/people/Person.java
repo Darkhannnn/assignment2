@@ -1,5 +1,8 @@
 package people;
-public class Person {
+
+import helpers.Payable;
+
+public class Person implements Payable {
     public static int nextId = 1;
 
     private int id;
@@ -13,15 +16,13 @@ public class Person {
     public String getName() {
         return name;
     }
-
-    public String getSurname() {
-        return surname;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
 
+    public String getSurname() {
+        return surname;
+    }
     public void setSurname(String surname) {
         this.surname = surname;
     }
@@ -29,7 +30,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(int id, String name, String surname) {
+    public Person(String name, String surname) {
         this.id = getNextId();
         this.name = name;
         this.surname = surname;
@@ -45,8 +46,13 @@ public class Person {
 
     @Override
     public String toString() {
-        return id +
-                ". " + name +
-                " " + surname + '\'';
+        return id + ". " +
+                name + " " +
+                surname;
+    }
+
+    @Override
+    public double getPaymentAmount() {
+        return 0.0;
     }
 }
