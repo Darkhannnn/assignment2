@@ -55,8 +55,7 @@ public class Employee extends Person {
     public Employee(){
 
     }
-    public Employee(int id, String name, String surname, String position, double salary) {
-        this.id = id;
+    public Employee(String name, String surname, String position, double salary) {
         this.name = name;
         this.surname = surname;
         this.position = position;
@@ -66,8 +65,8 @@ public class Employee extends Person {
     @Override
     public String toString() {
         return "Employee:" +
-                ". " + id +
-                " " + name +
-                " " + surname + '\'';
+                id + ". " +
+                name + " " +
+                surname + '\'';
     }
 }
